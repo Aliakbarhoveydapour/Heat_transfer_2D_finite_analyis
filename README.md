@@ -1,4 +1,5 @@
 Heat_Treansfer_2D_finite_analysis
+
 This repository contains a MATLAB implementation for solving 2D steady-state heat conduction problems using the Finite Difference Method (FDM). The solver uses Gauss-Seidel iteration to compute temperature distributions across an L-shaped domain, with support for linearized radiation boundary conditions alongside standard convective and fixed-temperature conditions.
 
 Features
