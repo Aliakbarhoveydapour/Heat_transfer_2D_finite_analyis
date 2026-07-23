@@ -1,0 +1,1 @@
+2D steady-state heat conduction solver for an L-shaped composite geometry, using finite-difference discretization and Gauss-Seidel iteration with linearized radiation boundary conditions (MATLAB).
