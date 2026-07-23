@@ -44,7 +44,7 @@ Material: k = 180 W/(m·K) (aluminum-like conductivity).
 
 ```matlab
 % From the MATLAB command window / editor:
-heat_transfer_fdm_gauss_seidel.m
+FDM_Code.m
 ```
 
 The script runs standalone — no input files or function arguments needed.
