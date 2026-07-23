@@ -13,6 +13,8 @@ How It Works
 The domain is discretized into a grid, and an energy balance is applied at each node to generate a system of algebraic equations. Boundary nodes account for the specified conditions (fixed temperature, convection, or radiation), with radiation terms linearized to keep the system solvable within the iterative Gauss-Seidel framework. The solver iterates until the temperature field converges within a specified tolerance.
 Constrains:
 
+The system is on steady-state condition
+
 k=180 W/m.K
 
 The bottom face has a fixed temperature boundary condition of T = 60°C.
@@ -24,4 +26,5 @@ The right face has a convection boundary condition (T∞ = 25°C, h = 20 W/m²K)
 The top surface of the base is thin insulation (adiabatic). (Nodes 18, 19, 20, and 21)
 
 The remaining external surfaces have a convection boundary condition with T∞ = 25°C, h = 25 W/m²K.
+
 
